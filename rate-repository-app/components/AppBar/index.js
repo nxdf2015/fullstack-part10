@@ -43,7 +43,7 @@ const AppBar = () => {
             <AppBarTab name="Sign in" />
           </Link>:
           <Link to="/logout" component={TouchableOpacity}>
-            <AppBarTab name="logout" />
+            <AppBarTab name="Sign out" />
           </Link>}
         </ScrollView>
       </Container>
